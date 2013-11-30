@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"if",
-				"ife	if … else … end"
+				"do",
+				"do"
 			],
 			[
-				"do",
-				"dob	Insert do |variable| … end"
+				"if",
+				"ife	if … else … end"
 			],
 			[
 				"gr",
@@ -23,15 +23,73 @@
 			"file": "app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 344,
+				"buffer_size": 389,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "db/migrate/20131116001811_add_password_digest_to_users.rb",
+			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 129,
+				"buffer_size": 1890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 578,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/custom.css.scss",
+			"settings":
+			{
+				"buffer_size": 1947,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/users/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 205,
+				"line_ending": "Windows",
+				"name": "<%= @user.name %>, <%= @user.email %>"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 857,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/factories.rb",
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Windows",
+				"name": "FactoryGirl.define do"
+			}
+		},
+		{
+			"file": "app/helpers/users_helper.rb",
+			"settings":
+			{
+				"buffer_size": 317,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +105,7 @@
 			"file": "spec/models/user_spec.rb",
 			"settings":
 			{
-				"buffer_size": 2038,
+				"buffer_size": 3021,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,15 +113,7 @@
 			"file": "spec/requests/user_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 235,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1889,
+				"buffer_size": 436,
 				"line_ending": "Unix"
 			}
 		}
@@ -100,6 +150,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/aidan/rails_projects/sample_app/config/environments/test.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/assets/stylesheets/static_pages.css.scss",
+		"/C/Users/aidan/rails_projects/sample_app/db/migrate/20131116001811_add_password_digest_to_users.rb",
 		"/C/Users/aidan/rails_projects/sample_app/Gemfile.lock",
 		"/C/Users/aidan/rails_projects/sample_app/Gemfile",
 		"/C/Users/aidan/rails_projects/sample_app/db/migrate/20131116000646_add_index_to_users_email.rb",
@@ -183,6 +236,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			">",
 			"describe"
 		],
 		"reverse": false,
@@ -194,7 +248,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -202,15 +256,15 @@
 					"file": "app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 344,
+						"buffer_size": 389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								141,
+								141
 							]
 						],
 						"settings":
@@ -225,18 +279,210 @@
 				},
 				{
 					"buffer": 1,
-					"file": "db/migrate/20131116001811_add_password_digest_to_users.rb",
+					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 129,
+						"buffer_size": 1890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								69,
-								69
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								549,
+								549
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/stylesheets/custom.css.scss",
+					"settings":
+					{
+						"buffer_size": 1947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1304.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/users/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<%= @user.name %>, <%= @user.email %>",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "spec/factories.rb",
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"auto_name": "FactoryGirl.define do",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/helpers/users_helper.rb",
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
 							]
 						],
 						"settings":
@@ -252,11 +498,11 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 9,
 					"file": "spec/requests/static_pages_spec.rb",
 					"settings":
 					{
@@ -284,50 +530,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 10,
 					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
-						"buffer_size": 2038,
+						"buffer_size": 3021,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1645,
-								1645
+								712,
+								712
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "spec/requests/user_pages_spec.rb",
-					"settings":
-					{
-						"buffer_size": 235,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								235,
-								235
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -336,26 +558,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "config/routes.rb",
+					"buffer": 11,
+					"file": "spec/requests/user_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1889,
+						"buffer_size": 436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								737,
-								737
+								436,
+								436
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
