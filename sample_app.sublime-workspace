@@ -32,59 +32,26 @@
 	"buffers":
 	[
 		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 2066,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/users_controller.rb",
-			"settings":
-			{
-				"buffer_size": 462,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 698,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/controllers/sessions_controller.rb",
 			"settings":
 			{
-				"buffer_size": 404,
+				"buffer_size": 440,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/sessions/new.html.erb",
+			"file": "app/helpers/sessions_helper.rb",
 			"settings":
 			{
-				"buffer_size": 453,
-				"line_ending": "Windows",
-				"name": "<% provide(:title, \"Sign In\") %>"
-			}
-		},
-		{
-			"file": "app/controllers/application_controller.rb",
-			"settings":
-			{
-				"buffer_size": 229,
+				"buffer_size": 619,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/models/user.rb",
+			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 696,
+				"buffer_size": 968,
 				"line_ending": "Unix"
 			}
 		},
@@ -108,15 +75,7 @@
 			"file": "spec/requests/user_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 2411,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 857,
+				"buffer_size": 2455,
 				"line_ending": "Unix"
 			}
 		},
@@ -124,7 +83,7 @@
 			"file": "spec/requests/authentication_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 1111,
+				"buffer_size": 1254,
 				"line_ending": "Unix"
 			}
 		}
@@ -161,6 +120,18 @@
 	},
 	"file_history":
 	[
+		"/C/Users/aidan/rails_projects/sample_app/config/routes.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_header.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/sessions/new.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/models/user.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/controllers/application_controller.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/assets/javascripts/application.js",
+		"/C/Users/aidan/rails_projects/sample_app/.git/logs/HEAD",
+		"/C/Users/aidan/rails_projects/sample_app/sample_app.sublime-project",
+		"/C/Users/aidan/rails_projects/sample_app/.gitignore",
+		"/C/Users/aidan/rails_projects/sample_app/Gemfile",
 		"/C/Users/aidan/rails_projects/sample_app/db/migrate/20131205000551_add_remember_token_to_users.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/users/show.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/users/new.html.erb",
@@ -168,10 +139,6 @@
 		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_error_messages.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
 		"/C/Users/aidan/rails_projects/sample_app/config/environments/production.rb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/application.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/controllers/users_controller.rb",
-		"/C/Users/aidan/rails_projects/sample_app/app/models/user.rb",
-		"/C/Users/aidan/rails_projects/sample_app/Gemfile",
 		"/C/Users/aidan/rails_projects/sample_app/spec/factories.rb",
 		"/C/Users/aidan/rails_projects/sample_app/config/environments/test.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/assets/stylesheets/static_pages.css.scss",
@@ -181,19 +148,16 @@
 		"/C/Users/aidan/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/about.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_header.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/home.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/spec/spec_helper.rb",
 		"/C/Users/aidan/rails_projects/sample_app/spec/support/utilities.rb",
-		"/C/Users/aidan/rails_projects/sample_app/config/routes.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_shim.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_shim",
 		"/C/Users/aidan/rails_projects/sample_app/app/helpers/application_helper.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/help.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/config/application.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/helpers/example_user.rb",
-		"/C/Users/aidan/rails_projects/sample_app/.gitignore",
 		"/C/Users/aidan/rails_projects/sample_app/config/database.yml",
 		"/C/Users/aidan/rails_projects/sample_app/config/initializers/session_store.rb",
 		"/C/Users/aidan/rails_projects/sample_app/.secret",
@@ -207,7 +171,6 @@
 		"/C/Users/aidan/rails_projects/sample_app/db/seeds.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/contact.rhtml",
 		"/C/Users/aidan/rails_projects/sample_app/README.md",
-		"/C/Users/aidan/rails_projects/sample_app/sample_app.sublime-project",
 		"/C/Users/aidan/rails_projects/sample_app/sample_app.sublime-workspace",
 		"/C/Users/aidan/rails_projects/first_app/.gitignore",
 		"/C/Users/aidan/rails_projects/sample_app/README.rdoc",
@@ -266,23 +229,23 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.rb",
+					"file": "app/controllers/sessions_controller.rb",
 					"settings":
 					{
-						"buffer_size": 2066,
+						"buffer_size": 440,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								751,
-								751
+								440,
+								440
 							]
 						],
 						"settings":
@@ -299,18 +262,44 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/controllers/users_controller.rb",
+					"file": "app/helpers/sessions_helper.rb",
 					"settings":
 					{
-						"buffer_size": 462,
+						"buffer_size": 619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								258
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								670,
+								670
 							]
 						],
 						"settings":
@@ -324,148 +313,15 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 698,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								698,
-								698
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/controllers/sessions_controller.rb",
-					"settings":
-					{
-						"buffer_size": 404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								403,
-								403
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/sessions/new.html.erb",
-					"settings":
-					{
-						"buffer_size": 453,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								453,
-								453
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<% provide(:title, \"Sign In\") %>",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/controllers/application_controller.rb",
-					"settings":
-					{
-						"buffer_size": 229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								229,
-								229
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 696,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								696,
-								696
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 3,
 					"file": "spec/requests/static_pages_spec.rb",
 					"settings":
 					{
@@ -493,7 +349,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 4,
 					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
@@ -504,8 +360,8 @@
 						"selection":
 						[
 							[
-								3068,
-								3068
+								3178,
+								3178
 							]
 						],
 						"settings":
@@ -521,19 +377,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 5,
 					"file": "spec/requests/user_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 2411,
+						"buffer_size": 2455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								662,
-								662
+								2226,
+								2226
 							]
 						],
 						"settings":
@@ -543,58 +399,31 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 690.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 857,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 6,
 					"file": "spec/requests/authentication_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1111,
+						"buffer_size": 1254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								597,
+								597
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
