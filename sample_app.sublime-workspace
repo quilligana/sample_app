@@ -35,7 +35,7 @@
 			"file": "app/controllers/sessions_controller.rb",
 			"settings":
 			{
-				"buffer_size": 440,
+				"buffer_size": 420,
 				"line_ending": "Unix"
 			}
 		},
@@ -48,10 +48,18 @@
 			}
 		},
 		{
-			"file": "Gemfile",
+			"file": "app/views/sessions/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 968,
+				"buffer_size": 459,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2066,
 				"line_ending": "Unix"
 			}
 		},
@@ -84,6 +92,22 @@
 			"settings":
 			{
 				"buffer_size": 1254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 546,
 				"line_ending": "Unix"
 			}
 		}
@@ -120,6 +144,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/aidan/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee",
+		"/C/Users/aidan/rails_projects/demo_app/README.rdoc",
+		"/C/Users/aidan/rails_projects/sample_app/README.md",
+		"/C/Users/aidan/rails_projects/sample_app/Gemfile",
 		"/C/Users/aidan/rails_projects/sample_app/config/routes.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/controllers/users_controller.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/application.html.erb",
@@ -131,7 +159,6 @@
 		"/C/Users/aidan/rails_projects/sample_app/.git/logs/HEAD",
 		"/C/Users/aidan/rails_projects/sample_app/sample_app.sublime-project",
 		"/C/Users/aidan/rails_projects/sample_app/.gitignore",
-		"/C/Users/aidan/rails_projects/sample_app/Gemfile",
 		"/C/Users/aidan/rails_projects/sample_app/db/migrate/20131205000551_add_remember_token_to_users.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/users/show.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/users/new.html.erb",
@@ -170,7 +197,6 @@
 		"/C/Users/aidan/rails_projects/sample_app/config/environment.rb",
 		"/C/Users/aidan/rails_projects/sample_app/db/seeds.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/contact.rhtml",
-		"/C/Users/aidan/rails_projects/sample_app/README.md",
 		"/C/Users/aidan/rails_projects/sample_app/sample_app.sublime-workspace",
 		"/C/Users/aidan/rails_projects/first_app/.gitignore",
 		"/C/Users/aidan/rails_projects/sample_app/README.rdoc",
@@ -229,7 +255,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -237,21 +263,21 @@
 					"file": "app/controllers/sessions_controller.rb",
 					"settings":
 					{
-						"buffer_size": 440,
+						"buffer_size": 420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								440,
-								440
+								174,
+								174
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -278,7 +304,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -288,18 +316,46 @@
 				},
 				{
 					"buffer": 2,
-					"file": "Gemfile",
+					"file": "app/views/sessions/new.html.erb",
 					"settings":
 					{
-						"buffer_size": 968,
+						"buffer_size": 459,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								670,
-								670
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 2066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
 							]
 						],
 						"settings":
@@ -317,11 +373,10 @@
 			]
 		},
 		{
-			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "spec/requests/static_pages_spec.rb",
 					"settings":
 					{
@@ -349,7 +404,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
@@ -377,7 +432,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "spec/requests/user_pages_spec.rb",
 					"settings":
 					{
@@ -405,7 +460,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "spec/requests/authentication_pages_spec.rb",
 					"settings":
 					{
@@ -416,14 +471,66 @@
 						"selection":
 						[
 							[
-								597,
-								597
+								286,
+								286
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
