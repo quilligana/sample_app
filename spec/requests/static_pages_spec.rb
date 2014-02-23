@@ -21,17 +21,41 @@ describe "Static pages" do
       let(:user) { FactoryGirl.create(:user) }
       before do
         FactoryGirl.create(:micropost, user: user, content: "Lorem ipsum")
-        FactoryGirl.create(:micropost, user: user, content: "Dolor sit amet")
         sign_in user
         visit root_path
       end
 
-      it "should render the user's feed" do
-        user.feed.each do |item|
-          expect(page).to have_selector("li##{item.id}", text: item.content)
+      it "should indicate the micropost count" do
+        expect(page).to have_content('1 micropost')
+      end
+
+      describe "multiple posts and feed" do
+        before do
+          FactoryGirl.create(:micropost, user: user, content: "Dolor sit amet")
+          visit root_path
+        end
+
+        it "should render the user's feed" do
+          user.feed.each do |item|
+            expect(page).to have_selector("li##{item.id}", text: item.content)
+          end
+        end
+
+        it "should pluralize the micropost count correctly" do
+          expect(page).to have_content('2 microposts')
         end
       end
     end
+
+    # describe "for non-signed-in-users" do
+    #   let(:user1) { FactoryGirl.create(:user) }
+    #   let(:user2) { FactoryGirl.create(:user) }
+    #   before do
+    #     FactoryGirl.create(:micropost, user: user1, content: "Lorem ipsum")
+    #     sign_in user
+    #     visit root_path
+    #   end
+    # end
   end
 
   describe "Help page" do
