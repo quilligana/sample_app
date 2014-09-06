@@ -11,3 +11,5 @@ by [Michael Hartl](http://michaelhartl.com/).
 The application functionality has been extended by Aidan Quilligan as an experimental playground.
 
 Recently added New Relic Application Monitoring...
+
+Also, check out the code quality and test coverage badges I've added. Cool, hey?
