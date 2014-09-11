@@ -13,3 +13,5 @@ The application functionality has been extended by Aidan Quilligan as an experim
 Recently added New Relic Application Monitoring...
 
 Also, check out the code quality and test coverage badges I've added. Cool, hey?
+
+Let me know if you would like to see a particular feature implemented and I will do my best to oblige.
